@@ -1,8 +1,5 @@
-
-
 #container {
   text-align: center;
-
   position: absolute;
   left: 0;
   right: 0;
@@ -18,9 +15,7 @@
 #container p {
   font-size: 16px;
   line-height: 22px;
-
   color: #8c8c8c;
-
   margin: 0;
 }
 
@@ -42,21 +37,17 @@
 
 ion-grid {
   margin-top: 50px;
-
-  ion-card {
-    box-shadow: -1px 11px 13px -6px rgb(87, 86, 86);
-    border-radius: 10px !important;
-    margin: 10px 0;
-    width: 140px;
-    height: 150px;
-
-    ion-thumbnail {
-      img {
-        transform: translateY(50%);
-      }
-    }
-    ion-card-title {
-      margin-top: 35px;
-    }
-  }
 }
+ion-grid ion-card {
+  box-shadow: -1px 11px 13px -6px rgb(87, 86, 86);
+  border-radius: 10px !important;
+  margin: 10px 0;
+  width: 140px;
+  height: 150px;
+}
+ion-grid ion-card ion-thumbnail img {
+  transform: translateY(50%);
+}
+ion-grid ion-card ion-card-title {
+  margin-top: 35px;
+}/*# sourceMappingURL=home.page.css.map */
